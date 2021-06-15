@@ -36,4 +36,5 @@ public abstract class Question {
     public String getAnswer() {
         return answer;
     }
+
 }

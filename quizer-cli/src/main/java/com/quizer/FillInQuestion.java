@@ -7,6 +7,6 @@ public class FillInQuestion extends Question {
 
     @Override
     public String toString() {
-        return null;
+        return super.getDescription().replace("{blank}", "___________");
     }
 }

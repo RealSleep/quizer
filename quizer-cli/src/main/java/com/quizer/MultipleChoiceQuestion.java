@@ -31,7 +31,11 @@ public class MultipleChoiceQuestion extends Question{
 
     @Override
     public String toString() {
-        return null;
+        String result = super.getDescription() + "\n";
+        for (int i = 0; i < numOfOptions; i++) {
+            result += String.format("%c) %s\n", 'A'+i, options[i]);
+        }
+        return result;
     }
 
 }
