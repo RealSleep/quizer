@@ -39,3 +39,4 @@ java -jar target/quizer-1.0-SNAPSHOT.jar <filePath>
 ```
 
 For a start you can use 'target/classes/JavaQuiz.txt' file.
+
