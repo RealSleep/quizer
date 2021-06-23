@@ -15,8 +15,7 @@
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "com.quizer.Main",
-            "projectName": "quizer",
-            "args": "${command:SpecifyProgramArgs}"
+            "projectName": "quizer"
         }
     ]
 }
