@@ -8,7 +8,7 @@ with new line.
 
 ## Installation
 
-This project used the maven building tool. (if you want just to run program you can go to usage section)
+This project used the maven building tool.
 To build the project you need to install a maven in your local machine. (maven[https://maven.apache.org/download.cgi?Preferred=ftp://mirror.reverse.net/pub/apache/])
 Run
 
