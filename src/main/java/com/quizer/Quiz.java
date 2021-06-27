@@ -16,7 +16,6 @@ import java.util.Scanner;
 public final class Quiz {
     private static final double HUNDREDPERCENT = 100.0;
     private static final int NUMBEROFOPTIONS = 4;
-    private static final int NUMOFUNDER = 54;
 
     private String quizName;
     private ArrayList<Question> questions;
@@ -142,7 +141,7 @@ public final class Quiz {
             isCorrect = answer.equals(question.getAnswer());
         }
 
-        System.out.printf("%9s!%n%s%n", isCorrect ? "Correct" : "Incorrect", "_".repeat(NUMOFUNDER));
+        System.out.printf("%9s!%n%s%n", isCorrect ? "Correct" : "Incorrect", "______________");
         return isCorrect ? 1 : 0;
     }
 
